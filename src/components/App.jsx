@@ -23,6 +23,7 @@ export default function App() {
       .then((d) => {
         setData(d);
         setStatus(true);
+        console.log(api.key);
       });
   }
 
