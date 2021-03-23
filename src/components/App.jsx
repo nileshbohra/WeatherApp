@@ -12,7 +12,7 @@ export default function App() {
 
   const api = {
     url: "https://api.openweathermap.org/data/2.5/",
-    key: "96768611e6d01000c52d472419597184",
+    key: API_KEY,
   };
 
   function showData() {
