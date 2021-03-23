@@ -147,6 +147,7 @@ main {
 
 .Error{
   @include flexCenter(column);
+  flex-wrap: wrap;
   align-items: flex-start;
   background-color: transparent;
   box-shadow: 3px 3px 16px black, -3px -3px 16px rgba(255, 255, 255, 1);
