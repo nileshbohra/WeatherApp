@@ -84,12 +84,11 @@ main {
     flex-wrap: wrap;
     width: 315px;
     border-radius: 12px;
-    box-shadow: 3px 3px 16px black, -3px -3px 16px rgba(255, 255, 255, 1),
-      -20px -20px 30px rgba(170, 170, 170, 0.1) inset;
+    box-shadow: 3px 3px 16px black, -3px -3px 16px rgba(255, 255, 255, 1);
     background-color: $primary-color;
     margin: 3% 0;
     padding: 20px 40px;
-    height: 100%;
+    height: auto;
     img {
       width: 120px;
       height: auto;
@@ -160,6 +159,7 @@ main {
   letter-spacing: 1.2px;
   h1{
     font-size: 40px;
+    margin-bottom: 10px;
   }
 }
 

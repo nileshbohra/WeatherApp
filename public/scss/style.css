@@ -126,12 +126,12 @@ main .weatherInfo {
       flex-wrap: wrap;
   width: 315px;
   border-radius: 12px;
-  -webkit-box-shadow: 3px 3px 16px black, -3px -3px 16px white, -20px -20px 30px rgba(170, 170, 170, 0.1) inset;
-          box-shadow: 3px 3px 16px black, -3px -3px 16px white, -20px -20px 30px rgba(170, 170, 170, 0.1) inset;
+  -webkit-box-shadow: 3px 3px 16px black, -3px -3px 16px white;
+          box-shadow: 3px 3px 16px black, -3px -3px 16px white;
   background-color: #354a5f;
   margin: 3% 0;
   padding: 20px 40px;
-  height: 100%;
+  height: auto;
 }
 
 main .weatherInfo img {
@@ -247,6 +247,7 @@ main .weatherInfo .weatherData .otherInfo p {
 
 .Error h1 {
   font-size: 40px;
+  margin-bottom: 10px;
 }
 
 footer {
