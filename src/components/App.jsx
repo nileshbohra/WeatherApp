@@ -9,10 +9,9 @@ export default function App() {
   const [status, setStatus] = useState(false);
   const [data, setData] = useState({});
   const [city, setCity] = useState("");
-
   const api = {
     url: "https://api.openweathermap.org/data/2.5/",
-    key: process.env.REACT_APP_API_KEY
+    key: process.env.REACT_APP_API_KEY,
   };
 
   function showData() {
@@ -46,7 +45,7 @@ export default function App() {
         <Error data={data} />
       )}
       <footer>
-        <p>&copy; WeatherApp 2021</p>
+        <p>&copy; WeatherApp {new Date().getFullYear()}</p>
       </footer>
     </>
   );
